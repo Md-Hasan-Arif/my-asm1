@@ -6,7 +6,7 @@ body {
 /* header related style */
 
 .banner {
-    /* padding: 0 240px; */
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,16 +27,17 @@ body {
 .banner.profile-pic {
     width: 635px;
     height: 800px;
-    padding-left: 97px;
+    padding: 50px 2px 0 97px;
 }
 
 .header {
     background-color: rgba(229, 84, 115, 0.10);
     ;
 }
-.banner-description{
+
+.banner-description {
     padding: 32px 171px 32px 0;
-    
+
 }
 
 .btn-primary {
@@ -47,5 +48,53 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 20px 43px;
+}
+
+/* main section styles */
+
+/* featured styles */
+.section1 {
+    text-align: center;
+    padding: 180px 663px 50px 663px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.featured-pic {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 240px 128px;
+}
+
+#spic1 {
+    width: 310px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+#spic2 {
+    width: 315px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+#spic3 {
+    width: 314px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
 
 }
