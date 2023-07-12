@@ -140,28 +140,51 @@ body {
     font-weight: 800;
 }
 
-.pic-under-insta {
+.pic-under-instagram {
     display: flex;
     justify-content: space-around;
     padding: 48px 240px 0 240px;
 }
 
+.banner-three {
+    text-align: center;
+    background-image: url("../asm1-resource/flower-shop-assignment/Flower Asset/Rectangle\ 9.png");
+    width: 1440px;
+    height: 449px;
+
+    background-repeat: no-repeat;
+}
+
+
+#area-one {
+    width: 600px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+#btn-third {
+    width: 150px;
+    height: 64px;
+}
+
 footer {
-    
+
     background-color: black;
-    bac
+
     width: 1500px;
     height: 400px;
-    
+
 }
-.shes{
+
+.shes {
     color: rgba(233, 229, 27, 0.897);
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-   
 }
-.latest{
+
+.latest {
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
