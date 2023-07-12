@@ -123,9 +123,7 @@ body {
 
 }
 
-.hot-section {
-    ;
-}
+
 
 .banner-two {
     display: flex;
@@ -146,4 +144,26 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 48px 240px 0 240px;
+}
+
+footer {
+    
+    background-color: black;
+    bac
+    width: 1500px;
+    height: 400px;
+    
+}
+.shes{
+    color: rgba(233, 229, 27, 0.897);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+.latest{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 128px;
 }
